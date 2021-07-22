@@ -9,11 +9,13 @@ def main():
     conn = sqlite3.connect(database_string)
     cur = conn.cursor()
 
-    name_list = gen_parser.line_parser("names.txt")
-    addr_list = gen_parser.dual_line_parser("address.txt")
+    name_list = gen_parser.line_parser("data-populate/names.txt")
+    addr_list = gen_parser.dual_line_parser("data-populate/address.txt")
     print("Connected!")
 
-    for i in range(10_00_000):
+    number_of_records = 10
+
+    for i in range(number_of_records):
         name = random.choice(name_list)
         age = random.randint(18, 25)
         address = random.choice(addr_list)
