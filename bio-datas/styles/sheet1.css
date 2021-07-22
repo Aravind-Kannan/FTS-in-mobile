@@ -1,0 +1,19 @@
+.PersonalInfo {
+  background-color: bisque;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 7px;
+  display: flex;
+}
+
+.PersonalInfo--Title {
+  font-size: 24px;
+}
+
+.PersonalInfo--Content {
+  font-size: 20px;
+}
+
+.PersonalInfo--Links {
+  margin-left: 15px;
+}
