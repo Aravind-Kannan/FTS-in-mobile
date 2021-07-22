@@ -1,0 +1,8 @@
+# pycharm:
+.idea
+
+# vs code:
+__pycache__
+
+#database:
+*.db
