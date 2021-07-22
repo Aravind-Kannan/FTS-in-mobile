@@ -6,3 +6,6 @@ __pycache__
 
 #database:
 *.db
+
+# other files:
+bio-data-format.txt
